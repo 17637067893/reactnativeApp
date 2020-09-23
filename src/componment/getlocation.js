@@ -11,23 +11,6 @@ import {
 
 import { init,
   Geolocation} from 'react-native-amap-geolocation'
-//   let getLocation = async () => {
-//     await PermissionsAndroid.requestMultiple([
-//       PermissionsAndroid.PERMISSIONS.ACCESS_FINE_LOCATION,
-//       PermissionsAndroid.PERMISSIONS.ACCESS_COARSE_LOCATION,
-//     ]);
-    
-//     await init({
-//       ios: "",
-//       android: "69a6e31587f3c2bacbfaeb4946c64f5f"
-//     });
-    
-//     Geolocation.getCurrentPosition((val) => {
-//       console.log(val);
-//     });
-//   }
-//   getLocation();
-
   class GetPosition extends React.Component{
       constructor(props){
           super(props)
